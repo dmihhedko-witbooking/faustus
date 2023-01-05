@@ -3431,7 +3431,7 @@ static const struct dmi_system_id atw_dmi_list[] __initconst = {
 			DMI_MATCH(DMI_PRODUCT_NAME, "FX506LI"),
 		},
 	},
-		{
+	{
 		.callback = dmi_check_callback,
 		.ident = "FX506HM",
 		.matches = {
